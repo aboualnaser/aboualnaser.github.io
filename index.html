@@ -1,126 +1,621 @@
 <!DOCTYPE html>
-<html>
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <style media="screen">
-    h1 {
-      color: red;
-      font-family: inherit;
-    }
 
-    .var {
-      padding-top: 80px;
-      padding-bottom: 40px;
-      border-bottom: 5px solid blue;
-      width: 1000px;
-    }
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>CVMOHAMAD</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-    .holder img {
-               max-height: 30px;
-               max-width: 30px;
-               object-fit: cover;
-           }
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    .container img {
-      height: 200px;
-      margin: 0px 20px 0px 130px;
-      width: 150px;
-    }
-  </style>
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-header">
+<body id="top">
 
-        <a href="#" class="navbar-brand"> - Curriculum Vitae -</a>
-      </div>
-      <div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#Personal">Personal Data:</a></li>
-          <li class="active"><a href="#Area">Area of Interest:</a></li>
-          <li class="active"><a href="#Qualification:">Qualification:</a></li>
-          <li class="active"><a href="#Courses Attended:">Courses Attended:</a></li>
-          <li class="active"><a href="#Experience:">Experience:</a></li>
-          <li class="active"><a href="#contact:">contact:</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div id="Personal" class="var">
-      <div class="container">
-        <h1>Personal Data:</h1>
-        <div class="row">
-          <div class="col-sm-6">
-            <p>
-              Name : MOHAMAD ABDOUH ABOU ALNASER
-              <br> Dare of Birth: 15/9/1983
-              <br> Place of Birth: Damascus - Syria</p>
-          </div>
-          <div class="col-sm-6">
-            <div class="container">
-              <img src="DSC_0255.jpg" alt="" />
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">CVMOHAMAD</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">A PROPOS</a></li>
+						<li><a class="smoothscroll"  href="#Work" title="">Work Experience</a></li>
+						<li><a class="smoothscroll"  href="#MORE" title="">MORE</a></li>
+										
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Mohamad Abou Alnaser.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Front-end Developer</span>
+	   				<span>Back-end Developer</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	     	
+
+   </section> <!-- /intro -->
 
 
-            </div>
-        </div>
-        </div>
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
 
-        <div id="Area" class="var">
-          <h1>Area of Interest:</h1>
-          <p>Seeking an assignment in company working in Communications Or Electrical Engineering, trying to improve my experiences and skills in order to be an active member of a successful team and satisfying my high ambitions in a widely recognized company
-            .
-          </p>
-        </div>
-        <div id="Qualification:" class="var">
-          <h1>Qualification:</h1>
-          <p>Engineering in Degree in Electrical Engineering (Division of Electronics and Communications Engineering ) I graduate in - Damascus University - Syria in2007.</p>
-          <br>
-          <br>
-        </div>
-        <div id="Courses Attended:" class="var">
-          <h1>Courses Attended:</h1>
-          <p>1 General Electronics Course concerning major electronic components, general basics, maintenance fundamentals in 2003.
-            <br> 2 Programming course by C++ in 2002.
-            <br> 3 Micro controller course includes (Hardware and Software) 2004.
-            <br> 4 Course in Auto CAD in 2007.
-            <br> 5 Course in CCNA Cisco Routing and Switching TrainingCisco Routing and Switching Training.
-            <br> 6 Course in communication Skills in INTEX (International Expertise Association Co ) in 24-28/2/2011 .
-            <br> 7 Course in Presentation Skills in INTEC (International Experts & Consultant Association Co ) in 01-05/03/2011.
-            <br> 8 Course in Time Management Skills in INTEC (International Experts & Consultants Association Co ) in 06-10/03/2011 .
-            <br> 9 Course in MCITP – Enterprise Administrator Microsoft certified system administrator in 2012.
-            <br>
-          </p>
-        </div>
-        <div id="Experience:" class="var">
-          <h1>Experience:</h1>
-          <p>1 Worked at " Almanara for Electrical Devices " June 2004 - 2005 Sept .
-            <br> 2 Achieved project of " 8 bit Central Processing Unit ( CPU ) " in 2006 .
-            <br> 3 Achieved my graduation Project which is " Data Transmission By Using Infrared.
-            <br> 4 worked as a site manager in intracom company INTRACOM is working in telecommunications services the Greece company that I worked in p-mp project (point to multipoint ) in Syria p-mp is wireless access system use to serve the far villages
-            My tasks is: -make servy to area which the customer want to serve by landline -study the ability of put the tower in the desired area and the height of the tower by using pathloos program -make sure that the installation of the sites (indoor
-            and outdoor) that already done by the contractor companies is during to our standards. -make the installation of E1(2 M) cables between the exchange side (V5.2ML) and our equipment and also to the transmission side. -make the alignment between
-            the central nods and the terminal nods. -make the configurations to the central nods and terminal nods. -make the call and intraswitch tests. -make the installation of NMS(network management system).-make the acceptance with our customers.
-            5 worked in (DZPC) DIR ALZOR Petroleum Company in communication section in 1\7\2010 The national partner of TOTAL
-            <br> My Tasks is: -make sure that the connection between site is working by using microwave and fiber links -preparing the conference rooms for the meeting between sites -make sure that the connection between rig machine and the base station is
-            working by using DECT system -make the installation of networking system (routers, switches, modem) between the branch and configuration them.</p>
-          <br>
-          <br>
-        </div>
-        <div id="contact:" class="var">
-          <h1>contact:</h1>
-          <div class='holder'>
-            <a href="#"><img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" alt="" /></a>
-            <a href="#"><img src="https://myshadow.org/ckeditor_assets/pictures/75/content_facebook.png" alt="" /></a>
-            <a href="#"><img src="http://cdn.business2community.com/wp-content/uploads/2015/07/Twitter-icon.png.png" alt="" /></a>
-          </div>
-        </div>
-        </div>
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>A PROPOS</h5>
+   			
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">Actuellement apprenant à
+Simplon.co en développement Web
+PHP, je recherche un emploi, à partir
+du mois d’octobre 2016, qui me
+permettrait dans un premier temps
+d’affiner mes compétences
+techniques et mes qualités
+professionnelles.
+J’habite actuellement dans la
+banlieue parisienne, mais je suis
+mobile. </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>PRATIQUE </h3>
+   			
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Nom et Prénom:</strong>
+   					<span>ABOU ALNASER Mohamad</span>
+   				</li>
+   				<li>
+   					<strong>Date de naissance:</strong>
+   					<span>Né le : 15 / 09 / 1982</span>
+   				</li>
+                <li>
+   					<strong>Email:</strong>
+   					<span>m.aboualnasser@gmail.com</span>
+   				</li>
+                <li>
+   					<strong>Address:</strong>
+   					<span>2 rue Barbes, 92 210 Montrouge</span>
+   				</li>
+   				<li>
+   					<strong>Phone:</strong>
+   					<span>+ 33 6 27 76 01 44</span>
+   				</li>
+   				
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>COMPETENCES</h3>
+   			
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>JQuery</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Bootstrap</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li>
+                    <div class="progress percent75"><span>75%</span></div>
+				   	<strong>Java script</strong>
+				   </li>
+
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="Work" class="grey-section">
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>COMUS | France - Déploiement réseau – 2015</h3>
+	   					<p>Déploiement et mise en service des équipements radio et
+transmission du réseau Bouygues Télécom en Ile-deFrance.
+</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Al Furat Petroleum Company | Syrie - Ingénieur Télécom –
+2010 / 2013</h4>
+	   					<p>Déploiement et mise en service des équipements radio et
+transmission (Sagem)
+§ Configuration de routeurs Cisco .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Intracom | Syrie – Gestionnaire d e s i t e d e
+télécommunications 2008 / 2010</h3>
+	   					<p>Déploiement du projet de réseau point-à-multipont</p>
+	   				</div>
+
+	   				
+
+	   			</div> <!-- /timeline-block -->
+
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>FORMATION ET DIPLOMES</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Simplon.co – Montreuil </h3>
+	   					<p>2016 (7 mois)- Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					
+	   					<p>Formation intensive au développement Web (HTML, CSS,
+JS, PHP, Symfony)
+> Animation d’ateliers d’initiation à la programmation à
+destination des enfants et des adultes (Minecraft, Code
+n’Slash, Scratch)
+> Participation au Hackathons # RATP.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Microsoft Certified – Microsoft Certified IT Professional
+(MCITP) </h3>
+	   					<p>Syrie | 2013</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<p>Certification Cisco Microsoft : administrateur de bases de
+données .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Université de Damas - Diplôme d’ingénieur</h3>
+	   					<p>Syrie | 2008</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					
+	   					<p>Ingénieur Génie Electrique, option: génie électrique et de
+communication.</p>
+	   				</div>
+	   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Cisco Courses – Cisco Certified Network Associate Level
+(CCNA) New Horizon</h3>
+	   					<p>Syrie | 2007</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					
+	   					<p>Certification Cisco CCNA Routing and Switching :
+technicien réseau .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	
+	           
+
+	<!-- CTA Section
+   ================================================== -->
+	
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="MORE">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>MORE</h5>
+   			
+
+   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+   			
+   			<div class="service">
+
+			   	<span class="icon"><i class="icon-window"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>SYSTEMES ET BASE DE DONNEES</h3>
+
+		            <p class="desc"># Windows # Ubuntu
+# MySQL </br># Firebase.
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service --><div class="service">
+
+					<span class="icon"><i class="icon-earth"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>LANGUES</h3>
+
+		            <ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent100"><span>100%</span></div>
+				   	<strong>ARABE</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>ANGLAIS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>FRANcAIS</strong>
+				   </li>
+				   </ul> 
+	         		
+	            </div> 
+	            </div> <!-- /services-list -->
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-chat"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Personnalité</h3>
+
+		            <p class="desc"> Personnalité : # sérieux # dynamique # organisé
+# travail en équipe .
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Centres d’intérêts</h3>  
+
+		            <p class="desc">Centres d’intérêts : # cinéma d’action # poésie classique #
+randonnée.
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			  
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+           2 rue barbes<br>
+            92120<br>
+            Montrouge
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>m.aboualnasser@gmail.com
+ 
+			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: 
+			   	+ 33 6 27 76 01 44<br>
+			     	
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
 
 </html>
