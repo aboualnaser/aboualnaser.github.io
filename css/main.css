@@ -1026,7 +1026,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #7d7d7d;
 }
 .section-intro {
-	max-width: 700px;
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -1509,10 +1509,12 @@ header .logo a {
 	border-radius: 100%;
 	margin: 0rem 5 0 50;
 	float: left;
+	margin-right: 30px;
 }
 .intro-info .lead {
 	text-align: left;
 	padding-left: 15rem;
+	color: black;
 }
 
 .about-content {
@@ -2156,16 +2158,16 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.3);
 }
 .contact-form :-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 18- */
+	color: white;  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 19+ */
+	color:white;  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: white;
 }
 .contact-form .placeholder {
-	color: rgba(255, 255, 255, 0.3) !important;
+	color: white !important;
 }
 
 #contact form {
@@ -2310,6 +2312,7 @@ header .logo a {
 .contact-info h5 {
 	color: #FF0077;
 }
+
 
 /**
  * loader animation - (_layout.scss)
